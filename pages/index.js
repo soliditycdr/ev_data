@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main style={{ padding: 30 }}>
       <h1>🚗 EVRS Vehicle Mileage Data</h1>
+      <h2>Dashboard</h2>
       <ConnectButton />
       {isConnected && (
         <>
